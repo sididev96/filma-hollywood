@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  userName:string = ''
+  password: string = ''
+  
+  login() {
+    if (this.userName.length !== 0 && this.password.length !== 0) {
+      console.log("done");
+      
+    }
+  }
 }
+
+
